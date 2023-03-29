@@ -1,33 +1,48 @@
-body {
-  font-family: "Raleway", sans-serif;
+:root {
   font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  background-color: #ffffff;
+}
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  letter-spacing: 0.03em;
+  line-height: 100%;
 }
 .logo {
   color: #2196f3;
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
 }
-.nav-link {
-  font-family: "Roboto";
-  font-style: normal;
+.logo-shadow {
+  color: #000000;
+}
+.logo-highlight {
+  color: #ffffff;
+}
+.nav-link .menu-address {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+}
+.nav-link {
   color: #212121;
 }
 .nav-link:hover {
   color: #2196f3;
 }
 .menu-address {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
   color: #757575;
 }
 .menu-address:hover {
@@ -37,160 +52,77 @@ body {
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-  text-align: center;
+  line-height: 136%;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 .top-row {
-  width: 1600px;
-  height: 600px;
   background: #2f303a;
-  padding-left: 0px;
-  padding-top: 80px;
 }
 .header-primary {
   color: #212121;
   font-size: 36px;
   font-weight: 700;
-  line-height: 42.19px;
 }
 .header-secondary {
   color: #212121;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16.41px;
-  width: 270px;
 }
 .team-block {
-  width: 270px;
-  height: 368px;
   background: #ffffff;
-
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
 }
 .team-row {
   background: #f5f4fa;
-  width: 1600px;
-  height: 648px;
 }
 .description-secondary {
   color: #757575;
-  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  width: 270px;
+  line-height: 171%;
 }
 .header-team {
   color: #212121;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 18.75px;
-  text-align: center;
-  letter-spacing: 0.03em;
 }
 .job-title {
   color: #757575;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18.75px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.nav-row {
-  width: 1600px;
-  height: 80px;
-}
-.wrap {
-  width: 1170px;
-  height: 1360px;
 }
 .footer {
-  width: 1600px;
-  height: 252px;
   background: #2f303a;
 }
 .button-primary {
   background: #2196f3;
-  width: 200px;
-  height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
-  font-size: 16px;
   line-height: 30px;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  cursor: pointer;
-  align-items: center;
 }
 .button-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  line-height: 162%;
   color: #212121;
 }
 .button-portfolio:hover {
   background: #2196f3;
   color: #ffffff;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 .container-post {
-  box-sizing: border-box;
-  width: 370px;
-  height: 404px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
 }
 .header-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 200%;
   color: #212121;
 }
 .project-type {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
+  line-height: 188%;
   color: #757575;
 }
-.footer-address-secondary {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
+.footer-address {
   font-size: 14px;
-  line-height: 24px;
-  width: 231px;
+  line-height: 171%;
   color: #ffffff;
 }
-.footer-address-primary {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  width: 231px;
-  color: #ffffff99;
+.footer-address-opacity {
+  opacity: 0.8;
 }

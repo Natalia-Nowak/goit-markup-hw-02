@@ -1,7 +1,6 @@
 :root {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway";
-  background-color: #ffffff;
   --color-text-primary: #212121;
   --color-text-secondary: #757575;
   --color-text-active: #2196f3;
@@ -29,6 +28,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text-primary);
   letter-spacing: 0.03em;
+  background-color: #ffffff;
 }
 .logo {
   color: var(--color-text-active);

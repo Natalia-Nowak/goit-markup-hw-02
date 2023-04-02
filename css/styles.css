@@ -1,6 +1,6 @@
 :root {
-  font-family: "Roboto", sans-serif;
-  font-family: "Raleway";
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway";
   --color-text-primary: #212121;
   --color-text-secondary: #757575;
   --color-text-active: #2196f3;
@@ -11,6 +11,8 @@
 }
 * {
   margin: 0;
+  padding: 0;
+  border: none;
 }
 ul {
   list-style: none;
@@ -20,19 +22,19 @@ a {
   font-style: normal;
 }
 button {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-primary);
   border: none;
   cursor: pointer;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-primary);
   color: var(--color-text-primary);
   letter-spacing: 0.03em;
   background-color: #ffffff;
 }
 .logo {
   color: var(--color-text-active);
-  font-family: "Raleway";
+  font-family: var(--font-secondary);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -45,7 +47,6 @@ body {
 }
 .nav-link .menu-address {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
 }
 .nav-link {
@@ -102,12 +103,14 @@ body {
 .button-primary {
   background: var(--bgcolor-active);
   font-weight: 700;
+  font-size: 16px;
   line-height: 1.8;
   letter-spacing: 0.06em;
   color: var(--color-text-light);
 }
 .button-portfolio {
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.6;
   background: var(--bgcolor-light);
 }
